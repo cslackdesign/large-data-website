@@ -48,8 +48,8 @@ The card sort was conducted by Cassie Slack on September 10th between the times 
 
 ## Observations
 
-- I realized that to properly sort the cards I needed more depicting more exact topics on the site as I think people were confused.
-- everyone group large amounts of data together that could possibly have something to do with needing more cards.
+- I realized that to properly sort the cards I needed more cards depicting more exact topics on the site as I think people were confused.
+- everyone grouped large amounts of data together that could possibly have something to do with needing more cards.
 - Some of the groupings were unexpected to me (card sort 2)
 - Common comments were people trying to understand the uses of the information in my site.
 - I felt like I didn't give the sorters enough information to properly sort the cards.

@@ -45,7 +45,7 @@ Harry is the Head of IT at Eastforest Homes. He wants to make his work as stream
 **Personal Goals**
 
 - To make his job easier
-- To have the lastest Technology before anyone else.
+- To have the latest Technology before anyone else.
 
 **Technology Skills**
 
@@ -69,4 +69,4 @@ Harry is the Head of IT at Eastforest Homes. He wants to make his work as stream
 
 - A tool that was automated to make his job easier.
 - An in-depth Intranet that has everything that people need, including an IT help/FAQ section so that people don't all ask the same question.
-- An Intranet that he can acces on any device he wants.
+- An Intranet that he can access on any device he wants.
