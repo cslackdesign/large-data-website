@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang=en-ca>
+<head>
+  <meta charset=utf-8>
+  <title>title</title>
+</head>
+<body>
+
+  <!--
+<script>
+var connection = new ActiveXObject("ADODB.Connection") ;
+
+var connectionstring="Data Source=efhsql;Initial Catalog=hblive;User ID=reports2;Password=;Provider=SQLOLEDB";
+
+connection.Open(connectionstring);
+var rs = new ActiveXObject("ADODB.Recordset");
+
+rs.Open("SELECT * FROM employeebirthdays", connection);
+rs.MoveFirst
+
+var birthdayData=document.getElementById("birthdays");
+
+while(!rs.eof)
+{
+   birthdayData.write(rs.fields(1));
+   rs.movenext;
+}
+
+rs.close;
+connection.close;
+</script>
+-->
+<script>
+$document.ready(function(){
+  alert("Birthday1");
+});
+</script>
+
+</body>
+</html>
