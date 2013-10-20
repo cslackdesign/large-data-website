@@ -4,6 +4,9 @@
 nav {
   font-family: "Helvetica Neue", sans-serif;
   font-weight: lighter;
+
+  display: block;
+
 }
 
 
@@ -106,6 +109,7 @@ nav {
 
 .nav-top[data-state="expanded"] {
   max-height: 20rem;
+
 }
 
 @media only screen and (min-width: 50em){
