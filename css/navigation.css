@@ -1,5 +1,5 @@
 
-/* NAVIGATION */
+/*-----------------------------------------------------------------NAVIGATION */
 
 nav {
   font-family: "Helvetica Neue", sans-serif;
@@ -9,6 +9,7 @@ nav {
 
 }
 
+/*MOBILE NAV*/
 
 .nav-btn,
 .nav-btn:link,
@@ -112,6 +113,38 @@ nav {
 
 }
 
+/*LARGE NAV*/
+
+.large-nav {
+  display: none;
+
+  margin: .5rem 0 0 0;
+
+  font-size: 1.1rem;
+}
+
+.large-nav ul a{
+  text-decoration: none;
+
+  color:#fff;
+}
+
+.large-nav li {
+  list-style-type: none;
+  display: inline;
+
+  padding: 10px;
+}
+
+.large-nav a:hover,
+.large-nav a:active,
+.large-nav a:focus {
+  -webkit-transition:all 0.3s ease-in-out;
+  color:#555555;
+  transition:all 0.3s ease-in-out;
+}
+
+
 @media only screen and (min-width: 50em){
   .nav {
     display:none;
@@ -119,5 +152,11 @@ nav {
 
   .nav-btn {
     display:none;
+  }
+
+  .large-nav {
+    display: inline-block;
+
+
   }
 }

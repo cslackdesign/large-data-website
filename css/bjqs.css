@@ -27,10 +27,22 @@ ul.bjqs-controls.v-centered li a {
 
 ul.bjqs-controls.v-centered li.bjqs-next a {
   right:0;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Helvetica Neue" sans-serif;
+
+  background-color: #333;/*WILL BE AN IMG*/
+  padding: 2px;
 }
 
 ul.bjqs-controls.v-centered li.bjqs-prev a {
   left:0;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Helvetica Neue" sans-serif;
+
+  background-color: #333;/*WILL BE AN IMG*/
+  padding: 2px;
 }
 
 ol.bjqs-markers {
@@ -46,10 +58,26 @@ ol.bjqs-markers.h-centered {
 
 ol.bjqs-markers li {
   display:inline;
+  margin: 5px;
 }
 
 ol.bjqs-markers li a {
   display:inline-block;
+
+  text-decoration: none;
+  font-family: "Helvetica Neue" sans-serif;
+  color: #fff;
+
+  background-color: #333;
+  padding: 4px;
+}
+
+ol.bjqs-markers li a:hover,
+ol.bjqs-markers li a:focus,
+ol.bjqs-markers li a:active {
+  -webkit-transition:all 0.3s ease-in-out;
+  background-color: #999;
+  transition:all 0.3s ease-in-out;
 }
 
 p.bjqs-caption {
@@ -59,4 +87,11 @@ p.bjqs-caption {
   padding:2%;
   position:absolute;
   bottom:0;
+
+  font-family: "Helvetica Neue" sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  color: #fff;
+
+  background-color: #333;
 }
