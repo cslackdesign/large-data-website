@@ -1,0 +1,25 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+
+html {
+ margin:0;
+ padding:0;
+
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+/*----------------------------------------------------------------------HEADER*/
+
+header {
+  background-color: #333;
+
+  height: 4.5rem;
+}
