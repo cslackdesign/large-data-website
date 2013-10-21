@@ -31,7 +31,12 @@ ul.bjqs-controls.v-centered li.bjqs-next a {
   color: #fff;
   font-family: "Helvetica Neue" sans-serif;
 
-  background-color: #333;/*WILL BE AN IMG*/
+  width: 60px;
+  height: 100px;
+
+  background-image: url('../images/next-arrow.png');
+  background-repeat:no-repeat;
+  background-position: center;
   padding: 2px;
 }
 
@@ -41,9 +46,39 @@ ul.bjqs-controls.v-centered li.bjqs-prev a {
   color: #fff;
   font-family: "Helvetica Neue" sans-serif;
 
-  background-color: #333;/*WILL BE AN IMG*/
+  width: 60px;
+  height: 100px;
+
+  background-image: url('../images/prev-arrow.png');
+  background-repeat:no-repeat;
+  background-position: center;
   padding: 2px;
 }
+
+ul.bjqs-controls.v-centered li.bjqs-prev a:hover,
+ul.bjqs-controls.v-centered li.bjqs-prev a:focus,
+ul.bjqs-controls.v-centered li.bjqs-prev a:active {
+  background-image: url('../images/prev-arrow-hover.png');
+  background-repeat:no-repeat;
+  background-position: center;
+
+  -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+
+}
+
+ul.bjqs-controls.v-centered li.bjqs-next a:hover,
+ul.bjqs-controls.v-centered li.bjqs-next a:focus,
+ul.bjqs-controls.v-centered li.bjqs-next a:active {
+  background-image: url('../images/next-arrow-hover.png');
+  background-repeat:no-repeat;
+  background-position: center;
+
+  -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+
+}
+
 
 ol.bjqs-markers {
   list-style:none;
@@ -68,15 +103,24 @@ ol.bjqs-markers li a {
   font-family: "Helvetica Neue" sans-serif;
   color: #fff;
 
-  background-color: #333;
+  width: 2px;
+  height: 2px;
+
+  background-image: url('../images/button.png');
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: center;
   padding: 4px;
 }
 
 ol.bjqs-markers li a:hover,
 ol.bjqs-markers li a:focus,
 ol.bjqs-markers li a:active {
+    background-image: url('../images/button-hover.png');
+  background-size: 100%;
+  background-repeat:no-repeat;
+  background-position: center;
   -webkit-transition:all 0.3s ease-in-out;
-  background-color: #999;
   transition:all 0.3s ease-in-out;
 }
 
@@ -94,4 +138,10 @@ p.bjqs-caption {
   color: #fff;
 
   background-color: #333;
+}
+
+@media only screen and (min-width: 60em){
+  p.bjqs-caption {
+    font-size: 1.3rem;
+  }
 }

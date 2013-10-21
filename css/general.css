@@ -37,6 +37,8 @@ h1 {
 
   padding: 10px;
   margin:1.6rem 0 0 0;
+
+  text-align: center;
 }
 
 .sub {
@@ -46,6 +48,32 @@ h1 {
   font-weight: lighter;
   font-style: italic;
 
+  text-align:center;
+
+}
+
+@media only screen and (min-width: 48em){
+  h1 {
+    font-size: 3rem;
+    margin: 2.2rem 0 0 0;
+  }
+
+  .sub {
+    font-size: 1.4rem;
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media only screen and (min-width: 60em){
+  h1 {
+    font-size: 5rem;
+    margin: 3rem 0 0 0;
+  }
+
+  .sub {
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
+  }
 }
 
 /*---------------------------------------------------------------ARTICLE ITEMS*/
@@ -61,4 +89,72 @@ h1 {
   color: #fff;
   padding: 10px;
   margin: -.5rem;
+}
+
+.flex-img {
+  width: 100%;
+  padding:0;
+  margin:0 0 .4rem 0;
+}
+
+/*--------------------------------------------------------------------NOMINATE*/
+
+.nominate {
+  padding: 15px;
+  margin: 2rem 0 0 0;
+
+  background-color: #999;
+
+}
+
+.nominate p, h3 {
+  width: 20rem;
+
+}
+
+@media only screen and (min-width: 80em){
+  .nominate p, h3{
+    margin: 0 0 0 19rem;
+
+  text-align: right;
+  }
+
+  .nominate h3 {
+    font-size: 2rem;
+    padding: 5px 0 5px 0;
+  }
+
+  .nominate p {
+    line-height: 1.4rem;
+  }
+}
+
+/*----------------------------------------------------------------------FOOTER*/
+
+footer {
+  color: #fff;
+  background-color: #333;
+
+  padding: 15px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  padding: 3px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #999;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color:#666;
+  -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
 }

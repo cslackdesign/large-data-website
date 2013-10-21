@@ -18,7 +18,7 @@
     "use strict";
 
     $.fn.bjqs = function(o) {
-        
+
         // slider default settings
         var defaults        = {
 
@@ -96,7 +96,7 @@
             fwd             : 'forward',
             prev            : 'previous'
         };
-            
+
         // run through options and initialise settings
         var init = function() {
 
@@ -145,7 +145,7 @@
                 }
 
             } else {
-                // Stop automatic animation, because we only have one slide! 
+                // Stop automatic animation, because we only have one slide!
                 settings.automatic = false;
             }
 
@@ -316,9 +316,9 @@
         };
 
         var resize_complete = (function () {
-            
+
             var timers = {};
-            
+
             return function (callback, ms, uniqueId) {
                 if (!uniqueId) {
                     uniqueId = "Don't call this twice without a uniqueId";
@@ -418,8 +418,8 @@
 
             // create the elements for the controls
             $c_wrapper  = $('<ul class="bjqs-controls"></ul>');
-            $c_fwd      = $('<li class="bjqs-next"><a href="#" data-direction="'+ vars.fwd +'">' + settings.nexttext + '</a></li>');
-            $c_prev     = $('<li class="bjqs-prev"><a href="#" data-direction="'+ vars.prev +'">' + settings.prevtext + '</a></li>');
+            $c_fwd      = $('<li class="bjqs-next"><a href="#" data-direction="'+ vars.fwd +'">' + '</a></li>');
+            $c_prev     = $('<li class="bjqs-prev"><a href="#" data-direction="'+ vars.prev +'">' + '</a></li>');
 
             // bind click events
             $c_wrapper.on('click','a',function(e){
@@ -473,13 +473,13 @@
 
                 var slidenum    = key + 1,
                     gotoslide   = key + 1;
-                
+
                 if(settings.animtype === 'slide'){
                     // + 2 to account for clones
                     gotoslide = key + 2;
                 }
 
-                var marker = $('<li><a href="#">'+ slidenum +'</a></li>');
+                var marker = $('<li><a href="#">'+ '</a></li>');
 
                 // set the first marker to be active
                 if(slidenum === state.currentslide){ marker.addClass('active-marker'); }
@@ -588,7 +588,7 @@
         var set_next = function(direction) {
 
             if(direction === vars.fwd){
-                
+
                 if($slides.eq(state.currentindex).next().length){
                     state.nextindex = state.currentindex + 1;
                     state.nextslide = state.currentslide + 1;
@@ -656,7 +656,7 @@
                 if(settings.animtype === 'slide'){
 
                     if(settings.showmarkers){
-                        
+
                         var markerindex = state.nextindex-1;
 
                         if(markerindex === state.slidecount-2){
