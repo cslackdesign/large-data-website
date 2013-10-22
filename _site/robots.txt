@@ -1,0 +1,7 @@
+# Show search engines where to find our sitemap
+Sitemap: http://cslackdesign.github.io/large-data-website/sitemap.xml
+
+User-Agent: *
+
+# Block images
+# Disallow: /img
