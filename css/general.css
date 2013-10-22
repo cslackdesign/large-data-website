@@ -76,6 +76,17 @@ h1 {
   }
 }
 
+@media only screen and (min-width: 90em){
+  h1 {
+    font-size: 7rem;
+    margin: 4rem 0 1rem 0;
+  }
+
+  .sub {
+    font-size: 3rem;
+    margin: 0 0 3rem 0;
+  }
+}
 /*---------------------------------------------------------------ARTICLE ITEMS*/
 
 .bucket {
@@ -108,6 +119,16 @@ h1 {
   padding:0;
   margin:0 0 -.2rem 0;
 
+}
+
+@media only screen and (min-width: 90em){
+  .bucket p {
+    width: 96.8%;
+  }
+
+  .bucket h2 {
+    width:96.8%;
+  }
 }
 
 /*--------------------------------------------------------------------NOMINATE*/
