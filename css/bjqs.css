@@ -135,9 +135,9 @@ p.bjqs-caption {
   font-family: "Helvetica Neue" sans-serif;
   font-weight: lighter;
   font-style: italic;
-  color: #fff;
+  color: #000;
 
-  background-color: #333;
+  background-color: #B4D694;
 }
 
 @media only screen and (min-width: 60em){

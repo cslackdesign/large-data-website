@@ -79,37 +79,55 @@ h1 {
 /*---------------------------------------------------------------ARTICLE ITEMS*/
 
 .bucket {
-  background-color: #999;
   margin: .3rem 0.3rem .3rem .6rem;
   padding: 0;
+  padding:0;
 }
 
 .bucket h2 {
-  background-color: #000;
-  color: #fff;
+  background-color: #333;
+  color: #999;
   padding: 10px;
-  margin: -.5rem;
+  margin:0 0 -.8rem 0;
+  width:95%;
+}
+
+.bucket p {
+  background-color: #333;
+  width: 95%;
+  padding: 10px;
+  margin:0;
+  color: #fff;
+
+  line-height: 1.5rem;
+  font-weight: lighter;
 }
 
 .flex-img {
   width: 100%;
   padding:0;
-  margin:0 0 .4rem 0;
+  margin:0 0 -.2rem 0;
+
 }
 
 /*--------------------------------------------------------------------NOMINATE*/
 
 .nominate {
-  padding: 15px;
+  padding: 40px 15px 15px 15px;
   margin: 2rem 0 0 0;
 
-  background-color: #999;
+  background-color: #B4D694;
 
 }
 
 .nominate p, h3 {
   width: 20rem;
 
+}
+
+.nominate p {
+  font-weight: lighter;
+  line-height: 1.4rem;
 }
 
 @media only screen and (min-width: 80em){
@@ -125,7 +143,8 @@ h1 {
   }
 
   .nominate p {
-    line-height: 1.4rem;
+    line-height: 1.9rem;
+    font-size: 1.5rem;
   }
 }
 
