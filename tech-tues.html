@@ -10,67 +10,57 @@ layout: default
 
 <div class="grid">
 
-  <div class="unit unit-s-1 unit-m-1 unit-l-1">
+  <div class="newest unit unit-s-1 unit-m-1 unit-l-1">
     <div class="unit-spacer">
-      {% for tech in site.pages %}
-        {% if tech.date == "22/10/2013" %}
-          <img src="{{tech.thumb}}" alt="{{tech.title}}">
+      {% for tech in site.posts %}
+          <img class="tech-img" src="images/{{tech.thumb}}" alt="{{tech.title}}">
           <h2>{{tech.title}}</h2>
           <p class="article-sub">{{tech.subtitle}}</p>
           <p>{{tech.description}}</p>
-        {% endif %}
       {% endfor %}
     </div>
   </div>
 
   <div class="unit unit-s-1 unit-m-2 unit-l-1-4">
     <div class="unit-spacer">
-      {% for tech in site.pages %}
-        {% if tech.date == "10/09/2013" %}
-          <img src="{{tech.thumb}}" alt="{{tech.title}}">
+      {% for tech in site.posts %}
+          <img class="tech-img" src="images/{{tech.thumb}}" alt="{{tech.title}}">
           <h2>{{tech.title}}</h2>
           <p class="article-sub">{{tech.subtitle}}</p>
           <p>{{tech.description}}</p>
-        {% endif %}
       {% endfor %}
     </div>
   </div>
 
   <div class="unit unit-s-1 unit-m-2 unit-l-1-4">
     <div class="unit-spacer">
-      {% for tech in site.pages %}
-        {% if tech.date == "13/08/2013" %}
-          <img src="{{tech.thumb}}" alt="{{tech.title}}">
+      {% for tech in site.posts %}
+          <img class="tech-img" src="images/{{tech.thumb}}" alt="{{tech.title}}">
           <h2>{{tech.title}}</h2>
           <p class="article-sub">{{tech.subtitle}}</p>
           <p>{{tech.description}}</p>
-        {% endif %}
       {% endfor %}
     </div>
   </div>
 
   <div class="unit unit-s-1 unit-m-2 unit-l-1-4">
     <div class="unit-spacer">
-      {% for tech in site.pages %}
-        {% if tech.date == "16/07/2013" %}
-          <img src="{{tech.thumb}}" alt="{{tech.title}}">
+      {% for tech in site.posts %}
+          <img class="tech-img" src="images/{{tech.thumb}}" alt="{{tech.title}}">
           <h2>{{tech.title}}</h2>
           <p class="article-sub">{{tech.subtitle}}</p>
           <p>{{tech.description}}</p>
-        {% endif %}
       {% endfor %}
     </div>
   </div>
 
   <div class="unit unit-s-1 unit-m-2 unit-l-1-4">
     <div class="unit-spacer">
-      {% for tech in site.pages %}
-        {% if tech.date == "22/10/2013" %}
-          <img src="{{tech.thumb}}" alt="{{tech.title}}">
+      {% for tech in site.posts %}
+          <img class="tech-img" src="images/{{tech.thumb}}" alt="{{tech.title}}">
           <h2>{{tech.title}}</h2>
           <p class="article-sub">{{tech.subtitle}}</p>
           <p>{{tech.description}}</p>
-        {% endif %}
       {% endfor %}
     </div>
   </div>
