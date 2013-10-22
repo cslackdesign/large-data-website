@@ -1,13 +1,51 @@
+<<<<<<< HEAD
+=======
 @charset "UTF-8";
 /* CSS Document */
 
 
+>>>>>>> gh-pages
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+<<<<<<< HEAD
+
+html {
+ margin:0;
+ padding:0;
+
+ font-family: "Helvetica Neue" sans-serif;
+
+}
+
+body {
+  margin:0;
+  padding:0;
+}
+
+/*----------------------------------------------------------------------HEADER*/
+
+header {
+  background-color: #333;
+
+  height: 4.5rem;
+  margin:0;
+  padding:0;
+}
+
+/*--------------------------------------------------------------------------h1*/
+
+h1 {
+  font-family: "Helvetica Neue" sans-serif;
+  font-weight: bold;
+  line-height: 2.1rem;
+
+  padding: 10px;
+  margin:1.6rem 0 0 0;
+=======
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -116,10 +154,148 @@ h1 {
 
   color: #fff;
   text-decoration: none;
+>>>>>>> gh-pages
 
   text-align: center;
 }
 
+<<<<<<< HEAD
+.sub {
+  padding: 10px;
+  margin:-.5rem 0 0 0;
+
+  font-weight: lighter;
+  font-style: italic;
+
+  text-align:center;
+
+}
+
+@media only screen and (min-width: 48em){
+  h1 {
+    font-size: 3rem;
+    margin: 2.2rem 0 0 0;
+  }
+
+  .sub {
+    font-size: 1.4rem;
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media only screen and (min-width: 60em){
+  h1 {
+    font-size: 5rem;
+    margin: 3rem 0 0 0;
+  }
+
+  .sub {
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
+  }
+}
+
+/*---------------------------------------------------------------ARTICLE ITEMS*/
+
+.bucket {
+  margin: .3rem 0.3rem .3rem .6rem;
+  padding: 0;
+  padding:0;
+}
+
+.bucket h2 {
+  background-color: #333;
+  color: #999;
+  padding: 10px;
+  margin:0 0 -.8rem 0;
+  width:95%;
+}
+
+.bucket p {
+  background-color: #333;
+  width: 95%;
+  padding: 10px;
+  margin:0;
+  color: #fff;
+
+  line-height: 1.5rem;
+  font-weight: lighter;
+}
+
+.flex-img {
+  width: 100%;
+  padding:0;
+  margin:0 0 -.2rem 0;
+
+}
+
+/*--------------------------------------------------------------------NOMINATE*/
+
+.nominate {
+  padding: 40px 15px 15px 15px;
+  margin: 2rem 0 0 0;
+
+  background-color: #B4D694;
+
+}
+
+.nominate p, h3 {
+  width: 20rem;
+
+}
+
+.nominate p {
+  font-weight: lighter;
+  line-height: 1.4rem;
+}
+
+@media only screen and (min-width: 80em){
+  .nominate p, h3{
+    margin: 0 0 0 19rem;
+
+  text-align: right;
+  }
+
+  .nominate h3 {
+    font-size: 2rem;
+    padding: 5px 0 5px 0;
+  }
+
+  .nominate p {
+    line-height: 1.9rem;
+    font-size: 1.5rem;
+  }
+}
+
+/*----------------------------------------------------------------------FOOTER*/
+
+footer {
+  color: #fff;
+  background-color: #333;
+
+  padding: 15px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  padding: 3px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #999;
+}
+
+footer a:hover,
+footer a:active,
+footer a:focus {
+  color:#666;
+  -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+=======
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
@@ -1298,4 +1474,5 @@ footer a:hover,
 footer a:active,
 footer a:focus {
   color: #999;
+>>>>>>> gh-pages
 }
