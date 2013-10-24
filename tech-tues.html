@@ -10,16 +10,22 @@ layout: default
 
 <div class="grid">
 
-  <div class="newest unit unit-s-1 unit-m-1 unit-l-4">
-    <div class="unit-spacer">
-      {% for tech in site.posts %}
+
+  {% for tech in site.posts %}
+    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
+      <div class="unit-spacer">
+        <article class="tech-tues">
           <img class="tech-img" src="images/{{tech.thumb}}" alt="{{tech.title}}">
-          <h2>{{tech.title}}</h2>
-          <p class="article-sub">{{tech.subtitle}}</p>
-          <p>{{tech.description}}</p>
-      {% endfor %}
+          <div class="tech-text">
+            <h2>{{tech.title}}</h2>
+            <p class="article-sub">{{tech.subtitle}}</p>
+            <p>{{tech.description}}</p>
+          </div>
+        </article>
+      </div>
     </div>
-  </div>
+  {% endfor %}
+
 
 
 
