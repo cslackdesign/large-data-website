@@ -1,0 +1,32 @@
+.skiplinks {
+  margin:0;
+  padding:0;
+  position:absolute;
+
+  font-size: 1.25rem;
+  font-weight: bold;
+  list-style-type: none;
+
+  width:100%;
+
+  z-index: 3000;
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+  text-decoration:none;
+  color: #fff;
+
+  padding: 0.75em 1em;
+
+  position:absolute;
+  top: -10em;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.skiplinks a:focus {
+  top:0;
+}
