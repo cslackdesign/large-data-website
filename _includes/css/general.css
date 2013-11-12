@@ -92,45 +92,45 @@ h1 {
 /*---------------------------------------------------------------ARTICLE ITEMS*/
 
 .bucket {
-  margin: .3rem 0.3rem .3rem .6rem;
-  padding: 0;
+  margin: 0;
+  padding: 0px;
   padding:0;
 }
 
-.bucket h2 {
-  background-color: #333;
-  color: #999;
-  padding: 10px;
-  margin:0 0 -.8rem 0;
-  width:95%;
+#support-bucket {
+  background-image: url('../images/large-data-website-buckets.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 500px;
+  width: 500px;
+  background-size: 1000px;
 }
 
-.bucket p {
-  background-color: #333;
-  width: 95%;
-  padding: 10px;
-  margin:0;
-  color: #fff;
-
-  line-height: 1.5rem;
-  font-weight: lighter;
+#events-bucket {
+  background-image: url('../images/large-data-website-buckets.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 500px;
+  width: 500px;
+  background-size: 1000px;
 }
 
-.flex-img {
-  width: 100%;
-  padding:0;
-  margin:0 0 -.2rem 0;
-
+#deals-bucket {
+  background-image: url('../images/large-data-website-buckets.jpg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 500px;
+  width: 500px;
+  background-size: 1000px;
 }
 
-@media only screen and (min-width: 90em){
-  .bucket p {
-    width: 96.8%;
-  }
-
-  .bucket h2 {
-    width:96.8%;
-  }
+#tech-tues-bucket {
+  background-image: url('../images/large-data-website-buckets.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 500px;
+  width: 500px;
+  background-size: 1000px;
 }
 
 /*--------------------------------------------------------------------NOMINATE*/
