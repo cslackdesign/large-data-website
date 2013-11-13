@@ -5,13 +5,25 @@ layout: default
 <img class="flex-img" src="images/teach-tues-banner.jpg" alt="Welcome to Tech Tuesday, photo of iMacs">
 
 
-<h1>Tech Tuesdays</h1>
-<p class="sub"> Showing the latest and greatest tech and tech tips.</p>
+<h1>Archive</h1>
+<p class="sub"> Showing previous articles by Eastforest Homes</p>
 
 <div class="grid">
 
 
   {% for tech in site.categories.archive %}
+  <div class="unit unit-s-1 unit-m-1-2 unit-l-1-4">
+    <div class="unit-spacer">
+      <div class="bucket-img">
+        <img class="flex-img" src="images/support.jpg">
+
+        <div class="bucket-text">
+          <h2>{{archive.title}}</h2>
+          <p>{{archive.subtitle}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
   {% endfor %}
 
 
