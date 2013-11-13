@@ -11,19 +11,7 @@ layout: default
 <div class="grid">
 
 
-  {% for tech in site.posts %}
-    <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
-      <div class="unit-spacer">
-        <article class="tech-tues">
-          <img class="tech-img" src="images/{{tech.thumb}}" alt="{{tech.title}}">
-          <div class="tech-text">
-            <h2>{{tech.title}}</h2>
-            <p class="article-sub">{{tech.subtitle}}</p>
-            <p>{{tech.description}}</p>
-          </div>
-        </article>
-      </div>
-    </div>
+  {% for tech in site.categories.archive %}
   {% endfor %}
 
 
