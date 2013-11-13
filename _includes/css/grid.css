@@ -18,7 +18,7 @@
   word-spacing: normal;
 }
 .unit-spacer {
-  padding: 4px;
+  padding: 8px;
 }
 @media only screen and (max-width: 38em) {
   .unit-s-hidden {
