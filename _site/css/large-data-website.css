@@ -207,6 +207,32 @@ h1 {
   }
 }
 
+/*-----------------------------------------------------------------------FORMS*/
+
+.form-div {
+  width: 100%;
+
+
+}
+
+.form-div ul {
+  list-style-type: none;
+}
+
+.form-list a{
+  text-decoration: none;
+  color: #333;
+}
+
+.form-list a:hover{
+  text-decoration: none;
+  color: #B4D694;
+
+
+  -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+}
+
 /*----------------------------------------------------------------------FOOTER*/
 
 footer {
