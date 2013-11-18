@@ -54,6 +54,18 @@ h1 {
 
 }
 
+.sub a {
+  text-decoration: none;
+  color: #666;
+}
+
+.sub a:hover {
+  color: #B4D694;
+
+    -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+}
+
 @media only screen and (min-width: 48em){
   h1 {
     font-size: 3rem;
@@ -262,8 +274,6 @@ footer a:focus {
   -webkit-transition:all 0.3s ease-in-out;
   transition:all 0.3s ease-in-out;
 }
-
-
 
 
 /*-----------------------------------------------------------------NAVIGATION */
