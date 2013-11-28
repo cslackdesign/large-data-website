@@ -33,6 +33,13 @@ header {
 
 }
 
+/*FIX ICON FOR IE8*/
+
+/* Depends on Modernizr */
+.no-inlinesvg .icon {
+  background-image: url("../images/icon-nav.png");
+}
+
 /*--------------------------------------------------------------------------h1*/
 
 h1 {
